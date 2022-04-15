@@ -1,30 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Aprendendo a aprender</title>
 </head>
 <body>
-  <div class="page">
-    <header class="header">
 
+  <div class="page">
+
+    <header class="header">
+      <img class="logo logo_place_header" src="./images/logo_place_header.png" alt="Logo">
+      <h1 class="header__title">Aprendendo a aprender</h1>
+      <h2 class="header__subtitle">As técnicas de aprendizado mais eficazes que você pode aplicar ao seu cotidiano. <a class="header__link" href="#">Saiba mais</a></h2>
+      <img class="header__main-illustration" src="./images/header-image.png" alt="Header image">
+      <div class="header__square"> </div>
     </header>
+
     <main class="content">
+
       <section class="description">
+        <div class="two-columns">
+          <div class="two-columns__brief"><h2>O maior problema da educação</h2></div>
+          <div class="two-columns__main-text">
+            <div class="two-columns__paragraph">
+              <p>Seja na escola ou na universidade, o assunto que ninguém vai te ensinar é como se tornar autodidata. Nós repetimos exercícios específicos e memorizamos informações sem pensar e quando chega a hora do exame, o objetivo é apenas passar. Mas depois que o exame acaba, essa informação não tem mais utilidade, e não há garantia que ela será retida. No fim, nós só estamos aprendendo mesmo a passar nas nossas provas.</p>
+              <p><span class="two-columns__span-accent">Aqui vai a pergunta de fato:</span> será que essa abordagem de repetição e memorização nos ajuda realmente a entender o assunto? O consenso na academia atualmente é de que não ajuda. Aliás, mais importante do que um tópico individual é saber como estudar, mas por algum motivo esta questão é sempre deixada de lado. Então, o que podemos fazer para remediar isso?</p>
+              <p>Bem, há várias técnicas e exercícios que podem ser aplicados ao processo educacional para ajudar a torná-lo mais eficiente e cativante. Continue lendo para descobrir alguns dos segredos do aprendizado eficaz.</p>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="digits">
+      <section class="techniques">
+        <h2 class="techniques__title">Aprender técnicas</h2>
+        <h3 class="techniques__subtitle">As cinco estratégias de Barbara Oakley</h3>
+
+        <ul class="techniques__cards">
+          <li class="techniques__cards_item">
+            <img src="./images/cards-attention.png" alt="Um livro sendo segurado por duas mãos com o título -  1001 ensaios que vão mudar o jeito que você pensa." class="techniques__cards_item-image">
+            <p class="techniques__cards_item-title">As duas maneiras de pensar</p>
+            <p class="techniques__cards_item-description">Uma compreensão profunda surge da capacidade de alternar entre o pensamento difuso e o focado.</p>
+          </li>
+          <li><div class="tecniques__span"></div></li>
+          <li class="techniques__cards_item">
+            <img src="./images/cards-recall.png" alt="Uma estátua de um garoto com a mão no queixo olhando para baixo." class="techniques__cards_item-image">
+            <p class="techniques__cards_item-title">Recordar</p>
+            <p class="techniques__cards_item-description">Melhorar sua capacidade de para recordar pequenas informações importantes ajuda a conectar diferentes partes do cérebro.</p>
+          </li>
+          <li><div class="tecniques__span"></div></li>
+          <li class="techniques__cards_item">
+            <img src="./images/cards-interleaving.png" alt="Um auditório com telhado catedrático." class="techniques__cards_item-image">
+            <p class="techniques__cards_item-title">Intercalar</p>
+            <p class="techniques__cards_item-description">Quando você aprende diferentes habilidades ao mesmo tempo, elas fortalecem umas às outras.</p>
+          </li>
+        </ul>
+
+        <ul class="techniques__cards">
+          <li class="techniques__cards_item">
+            <img src="./images/cards-question.png" alt="Uma sala alta com janelas e portas." class="techniques__cards_item-image">
+            <p class="techniques__cards_item-title">Questões</p>
+            <p class="techniques__cards_item-description">Quando estiver escutando seu professor, pense em uma boa pergunta, algo que você realmente gostaria de saber.</p>
+          </li>
+          <li><div class="tecniques__span"></div></li>
+          <li class="techniques__cards_item">
+            <img src="./images/cards-competence.png" alt="Uma mão segurando alguns livros." class="techniques__cards_item-image">
+            <p class="techniques__cards_item-title">Ilusão da Competência</p>
+            <p class="techniques__cards_item-description">Melhorar sua capacidade de para recordar pequenas informações importantes ajuda a conectar diferentes partes do cérebro.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="video">
+        <h2 class="video__title">Conversas TED</h2>
+        <h3 class="video__subtitle">Para os amantes da procrastinação</h3>
+        <div class="video__iframes">
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <span class="video__iframe-divider"></span>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section class="oakley">
+        <div class="two-columns">
+          <div class="two-columns__brief"><h2>A história de Barbara Oakley.</h2></div>
+          <div class="two-columns__main-text">
+            <div class="two-columns__paragraph">
+              <p></p>
+              <p><span class="two-columns__span-accent"></span> </p>
+              <p>A matemática não veio naturalmente para Barbara na infância. Ela se identificava mais com ciências humanas, e que não era muito brilhante nisso. Com o objetivo de se especializar em linguística, após terminar seus estudos, ela se alistou no Exército, que a enviou para aprender russo. Após vários anos de serviço, tornando-se capitã, Barbara deixou o Exército e decidiu estudar engenharia. Foi nesta época que ela desenvolveu a metodologia de aprendizagem, pois precisou reprogramar seu cérebro para um tipo diferente de aprendizagem. Quando algo não ocorre naturalmente, então é preciso trabalhar duro para obter o conhecimento que outras pessoas podem obter rapidamente, dando assim uma visão mais profunda e abrangente do assunto.</p>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="feynman">
+        <h3 class="feynman__title">A Técnica de Feynman</h3>
+        <h2 class="feynman__subtitle">Aprender sem esquecer</h2>
+        <a class="feynman__link" href="#">Mais →</a>
+        <img class="feynman__image" src="./images/feynman.png" alt="A foto de Feynman">
+      </section>
+
+      <section class="digits">
+          <h2 class="digits__title">Fatos e números</h2>
+          <h3 class="digits__subtitle">Sobre o cérebro e o aprendizado</h3>
+          <div class="digits__table"></div>
+          <table class="digits__cell">
+            <tr>
+              <th class="digits__heading">86 bilhões</th>
+              <th class="digits__heading">73% </th>
+              <th class="digits__heading">1,000 terabytes</th>
+              <th class="digits__heading">500 trilhões</th>
+            </tr>
+            <tr>
+              <td class="digits__text">O número de neurônios no cérebro humano</td>
+              <td class="digits__text">A porcentagem de adultos nos EUA que se consideram aprendizes para a vida toda
+                <p class="digits__text_source">Centro de Pesquisas Pew</p></td>
+              <td class="digits__text">A capacidade de armazenamento de informação de um humano</td>
+              <td class="digits__text">O número de sinapses nervosas responsáveis pelo aprendizado em um adulto humano médio</td>
+            </tr>
+            <tr>
+              <th class="digits__heading">420 milhões</th>
+              <th class="digits__heading">26 anos de idade</th>
+              <th class="digits__heading">1885</th>
+              <th class="digits__heading">1897</th>
+            </tr>
+            <tr>
+              <td class="digits__text">O número de adultos abaixo de 25 anos sem educação suficiente para encontrar empregos
+                <p class="digits__text_source">Banco Mundial, 2017</p></td>
+              <td class="digits__text">A idade com que Albert Einstein publicou o seu artigo inovador sobre a relatividade especial</td>
+              <td class="digits__text">Desenvolvimento da curva de esquecimento</td>
+              <td class="digits__text">Publicação da pesquisa de Ivan Pavlov sobre condicionamento clássico</td>
+            </tr>
+          </table>
+      </section>
+
+      <section class="khan">
+        <div class="khan__container">
+          <h3 class="khan__author">Salman Khan</h3>
+          <h2 class="khan__title">The One World Schoolhouse</h2>
+          <p class="khan__quote">A paixão e inovação de Sal Khan é transformar o aprendizado para milhões de estudantes no mundo todo. O livro The One World Schoolhouse é uma leitura obrigatória para quem quer melhorar a educação e que os estudantes habilidades e conhecimentos necessários na escola, na carreira, e na vida em geral.</p>
+          <p class="khan__quote-author">George Lucas</p>
+          <p class="khan__quote-author-subline">Diretor</p>
+          <div class="khan__book-container">
+            <img class="khan__book-pic" src="./images/khan-book-2.png" alt="Imagem de livro">
+            <a class="khan__buy-link" href="#">Comprar →</a>
+          </div>
+        </div>
       </section>
 
       <section class="kaufman">
-      </section>
-    </main>
-    <footer class="footer">
+        <h2 class="kaufman__title kaufman__title_theme_dark">Dez princípios para adquirir habilidades de forma rápida</h2>
+        <h3 class="kaufman__subtitle kaufman__subtitle_theme_dark">por Josh Kaufman</h3>
+        <ul class="kaufman__list">
+          <li>
+            <p class="kaufman__heading kaufman__heading_theme_dark">1.</p>
+            <p class="kaufman__text kaufman__text_theme_dark"> Escolha um projeto que te traga interesse</p>
+          </li>
+          <li>
+            <p class="kaufman__heading kaufman__heading_theme_dark">2.</p>
+            <p class="kaufman__text kaufman__text_theme_dark">Foque a sua energia em uma habilidade por vez</p>
+          </li>
+          <li>
+            <p class="kaufman__heading kaufman__heading_theme_dark">3.</p>
+            <p class="kaufman__text kaufman__text_theme_dark">Defina o seu nível alvo de performance</p>
+          </li>
+          <li>
+            <p class="kaufman__heading kaufman__heading_theme_dark">4.</p>
+            <p class="kaufman__text kaufman__text_theme_dark">Desconstrua a habilidade em sub-habilidades</p>
+          </li>
+          <li>
+            <p class="kaufman__heading kaufman__heading_theme_dark">5.</p>
+            <p class="kaufman__text kaufman__text_theme_dark">Obtenha ferramentas críticas</p>
+          </li>
+        </ul>
 
+        <ul class="kaufman__list">
+          <li>
+            <p class="kaufman__heading kaufman__heading_theme_dark">6.</p>
+            <p class="kaufman__text kaufman__text_theme_dark">Elimite as barreiras para praticar</p>
+          </li>
+          <li>
+            <p class="kaufman__heading kaufman__heading_theme_dark">7.</p>
+            <p class="kaufman__text kaufman__text_theme_dark">Dedique tempo para a prática</p>
+          </li>
+          <li>
+            <p class="kaufman__heading kaufman__heading_theme_dark">8.</p>
+            <p class="kaufman__text kaufman__text_theme_dark">Crie ciclos de feedback rápidos</p>
+          </li>
+          <li>
+            <p class="kaufman__heading kaufman__heading_theme_dark">9.</p>
+            <p class="kaufman__text kaufman__text_theme_dark">Pratique usando o relógio, em intervalos curtos de tempo</p>
+          </li>
+          <li>
+            <p class="kaufman__heading kaufman__heading_theme_dark">10.</p>
+            <p class="kaufman__text kaufman__text_theme_dark">Dê ênfase a quantidade e velocidade</p>
+          </li>
+        </ul>
+
+          <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="Triângulo azul decorativo">
+      </section>
+
+      <section class="resources">
+        <h2 class="resources__title">Recursos úteis</h2>
+        <h3 class="resources__subtitle">Material adicional sobre técnicas e hacks de aprendizagem.</h3>
+        <div class="resources__logo-zone">
+          <img class="resources__logo" src="./images/logo/resources-tedED.png" alt="Logo Ted">
+          <img class="resources__logo" src="./images/logo/resources-Medium.png" alt="Logo Medium">
+          <img class="resources__logo" src="./images/logo/resources-dezeen.png" alt="Logo Dezeen">
+          <img class="resources__logo" src="./images/logo/resources-goodreads.png" alt="Logo Goodreads">
+        </div>
+
+      </section>
+
+    </main>
+
+      <footer class="footer">
+
+      <div class="footer__columns">
+
+        <div class="footer__columns_copyright footer__columns_theme_dark">©2022 Diego Galvão </div>
+        <img class="logo logo_place_footer" src="./images/logo_place_footer.png" alt="Logo">
+
+        <table class="footer__columns_content_social footer__columns_theme_dark">
+          <tr><th class="footer__columns_heading">Mídia social</th></tr>
+          <tr><td><img src="./images/facebook_white.svg" alt="Facebook logo" class="footer__columns_social-icons"> Facebook</td></tr>
+          <tr><td><img src="./images/instagram_white.svg" alt="Instagram logo" class="footer__columns_social-icons"> Instagram</td></tr>
+        </table>
+
+        <table class="footer__columns_content_about footer__columns_theme_dark">
+          <tr><th class="footer__columns_heading">Sobre Practicum by Yandex</th> </tr>
+          <tr><td class="footer__columns_link">Página Inicial</td></tr>
+          <tr><td class="footer__columns_link">Missão</td></tr>
+          <tr><td class="footer__columns_link">Profissões</td></tr>
+        </table>
+
+      </div>
     </footer>
   </div>
 </body>

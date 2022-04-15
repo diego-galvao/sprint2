@@ -1,0 +1,12 @@
+@import url(../blocks/footer/__columns/footer__columns.css);
+
+.footer{
+  padding-top: 60px;
+  min-height: 350px;
+  padding-bottom: 40px;
+  background-color: black;
+  display: flex;
+  position: relative;
+}
+
+
