@@ -1,9 +1,3 @@
-@import url(../blocks/digits/__cell/digits__cell.css);
-@import url(../blocks/digits/__heading/digits__heading.css);
-@import url(../blocks/digits/__subtitle/digits__subtitle.css);
-@import url(../blocks/digits/__text/digits__text.css);
-@import url(../blocks/digits/__title/digits__title.css);
-
 .digits{
   padding-top: 100px;
   padding-bottom: 100px;
