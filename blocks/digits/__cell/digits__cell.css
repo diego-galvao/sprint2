@@ -1,0 +1,6 @@
+.digits__cell{
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  width: 1100px;
+}

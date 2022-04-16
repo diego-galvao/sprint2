@@ -1,0 +1,13 @@
+.kaufman__text{
+  width: 200px;
+  margin: 0;
+  padding-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 1;
+}
+
+.kaufman__text_theme_dark{
+  color: #F2F2F2;
+}
