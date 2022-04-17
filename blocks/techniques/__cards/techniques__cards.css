@@ -4,14 +4,14 @@
   list-style-type: none;
 }
 
-.techniques__cards_item-image{
+.techniques__cards-image{
   width: 160px;
   height: 160px;
   padding: 60px 40px 43px;
   border-radius: 50%;
 }
 
-.techniques__cards_item-title{
+.techniques__cards-title{
   width: 240px;
   line-height: 1.15;
   font-size: 24px;
@@ -20,7 +20,7 @@
   text-align: center;
 }
 
-.techniques__cards_item-description{
+.techniques__cards-description{
   width: 240px;
   padding-bottom: 60px;
   line-height: 23px;

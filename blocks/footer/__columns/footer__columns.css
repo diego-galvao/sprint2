@@ -7,7 +7,7 @@
   margin: auto;
 }
 
-.footer__columns_copyright{
+.footer__column_content_copyright{
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -17,16 +17,16 @@
   font-size: 18px;
 }
 
-.footer__columns_content_social{
+.footer__column_content_social{
   display: flex;
   padding-left: 10%;
 }
 
-.footer__columns_content_about{
+.footer__column_content_about{
   display: flex;
 }
 
-.footer__columns_heading{
+.footer__column-heading{
   padding-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
@@ -34,19 +34,19 @@
   text-align: left;
 }
 
-.footer__columns_link{
+.footer__column-link{
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   padding: 0;
 }
 
-.footer__columns_social-icons{
+.footer__social-icons{
   width: 16px;
   height: 16px;
   padding-right: 10px;
 }
 
-.footer__columns_theme_dark{
+.footer__column_theme_dark{
   color: white;
 }
